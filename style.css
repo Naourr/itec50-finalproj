@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bgcolor: white;
+    --textcolor1: black;
+    --textcolor2: white;
+    --accent1: pink;
+    --accent1hover: salmon;
+    --accent2: powderblue;
+    --accent2hover: blue;
+}
+
+/* Pang test lang */
+div {
+    border: 1px solid black;
+}
+
+
+body {
+    background-color: var(--bgcolor);
+}
+
+body > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body > * > * {
+    max-width: 1200px;
+    width: 100%;
+    padding: 1.5rem;
+}
