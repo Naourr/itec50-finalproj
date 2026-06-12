@@ -1,0 +1,95 @@
+.about-page-wrapper {
+    max-width: 840px !important;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+.about-main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-heading {
+    font-size: 2.75rem; 
+    color: var(--textcolor1);
+    margin-bottom: 0.6rem; 
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.about-main-section p {
+    font-size: 1.15rem; 
+    line-height: 1.6;
+    margin-bottom: 0.8rem; 
+}
+
+.about-intro {
+    position: relative;
+}
+
+.about-dropcap {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 5.8rem; 
+    line-height: 0.82;
+    float: left;
+    margin-top: 0.16rem;
+    margin-right: 0.8rem;
+    margin-bottom: -0.1rem;
+    color: var(--textcolor1);
+    font-weight: 400;
+}
+
+.about-green-link {
+    color: var(--accent1);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.15s ease;
+}
+
+.about-green-link:hover {
+    color: var(--accent1lighter);
+}
+
+.faq-container {
+    margin-top: 0.5rem;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--textcolor1);
+    width: 100%;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.6rem 0; 
+    font-size: 0.95rem; 
+    color: var(--textcolor1);
+    list-style: none;
+}
+
+.faq-header::-webkit-details-marker {
+    display: none;
+}
+
+.faq-icon {
+    font-size: 0.75rem;
+    color: var(--textcolor1);
+}
+
+.faq-content {
+    font-size: 1.1rem; 
+    padding: 0.2rem 0 0.6rem 0; 
+    line-height: 1.5; 
+}
+
+details[open] .faq-icon {
+    content: "▼";
+}

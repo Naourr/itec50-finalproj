@@ -4,9 +4,228 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="script.js" defer></script>
 </head>
-// Ako na sa ABOUT PAGE Pre👌🏻👌🏻 ha
 <body>
-    About
+    <nav>
+        <div>
+            <div class="upper">
+                <div class="left">
+                    <img class="mobile-menu icon" src="/assets/icons/menu.png">
+                    <a href="/index.html">
+                        <img class="home-btn icon" src="/assets/icons/home.png">
+                    </a>
+                </div>
+                <a href="/index.html">
+                    <div class="title serif">Cookie <span>+</span> Kate</div>
+                </a>
+                <div class="right">
+                    <a class="button about-btn" href="about.html">About</a>
+                </div>
+            </div>
+            <div class="lower sans-serif">
+                <a href="#">Breakfast</a>
+                <a href="#">Lunch</a>
+                <a href="#">Dinner</a>
+                <a href="#">Dessert</a>
+                <a href="#">Favorites</a>
+                <div class="mobile-dropdown">
+                    <a href="#">About</a>
+                    <a href="#">Breakfast</a>
+                    <a href="#">Lunch</a>
+                    <a href="#">Dinner</a>
+                    <a href="#">Dessert</a>
+                    <a href="#">Favorites</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="about-page-wrapper">
+        <section class="about-main-section">
+            <h1 class="serif about-heading">About Cookie and Kate</h1>
+            <p class="body-text about-intro">
+                <span class="about-dropcap">W</span>elcome! I’m happy you’re here. You can call me Kate, one of many nicknames, or Kathryne, my full first name. Either way, I’m a self-taught cook from Oklahoma. I started this blog in 2010 and named it after my canine sidekick, Cookie. Now, I live in Kansas City with my family and work on this blog full-time. I love my job!
+            </p>
+        </section>
+
+        <img src="assets/images/trump.jpg">
+
+        <section class="about-main-section">
+            <h2 class="serif about-heading">About Cookie</h2>
+            <p class="body-text">Cookie is a jaunty spotted mutt who makes friends everywhere she goes. She is my eager four-legged assistant, my chief crumb catcher and the best companion a girl could ask for.</p>
+            <p class="body-text">I adopted Cookie in the summer of 2009. She came with her name and nothing more. Whether she was named for being one smart cookie or for looking like cookies and cream, the name suits her well.</p>
+            <p class="body-text">After five years of referring to Cookie as a “mystery mutt,” I finally caved and ordered a DNA test. My beloved, one-of-a-kind pup is half schipperke and half dachshund/Australian koolie mix.</p>
+            <p class="body-text">
+                <a href="#" class="about-green-link">Cookie left this world in 2023</a> after thirteen incredible years together. I miss her dearly, and this website will remain Cookie and Kate in honor of our time together.
+            </p>
+        </section>
+
+        <section class="about-main-section faq-container">
+            <h2 class="serif about-heading">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <details open>
+                    <summary class="sans-serif faq-header">
+                        Where can I buy your cookbook?
+                        <span class="faq-icon">▼</span>
+                    </summary>
+                    <div class="faq-content body-text">
+                        My cookbook, <em>Love Real Food</em>, can be purchased online at 
+                        <a href="#" class="about-green-link">Amazon</a>, 
+                        <a href="#" class="about-green-link">Barnes & Noble</a>, 
+                        <a href="#" class="about-green-link">BAM!</a>, 
+                        <a href="#" class="about-green-link">Bookshop.org</a>, and 
+                        <a href="#" class="about-green-link">Indigo</a>. 
+                        Digital editions of the book are available for purchase and download at iBooks and 
+                        <a href="#" class="about-green-link">Amazon Kindle</a>. 
+                        Look for the book in your local bookstore or Barnes & Noble. 
+                        <a href="#" class="about-green-link">More book details here</a>.
+                    </div>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <details>
+                    <summary class="sans-serif faq-header">
+                        What kind of camera do you use?
+                        <span class="faq-icon">▶</span>
+                    </summary>
+                    <div class="faq-content body-text">
+                        I use a professional DSLR camera setup with high-quality prime lenses to capture recipe details.
+                    </div>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <details>
+                    <summary class="sans-serif faq-header">
+                        Do you have any tips for new bloggers?
+                        <span class="faq-icon">▶</span>
+                    </summary>
+                    <div class="faq-content body-text">
+                        Focus on creating high-quality, authentic content and understanding SEO basics early on!
+                    </div>
+                </details>
+            </div>
+
+            <div class="faq-item">
+                <details>
+                    <summary class="sans-serif faq-header">
+                        Can I publish your photos or recipes on my blog/website?
+                        <span class="faq-icon">▶</span>
+                    </summary>
+                    <div class="faq-content body-text">
+                        Please review our terms of use before republishing content. Generally, an clear link back with credit is required.
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo">Cookie <span class="footer-logo-plus">+</span> Kate</a>
+                <p class="footer-tagline">Celebrating whole foods</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://instagram.com" class="social-link" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                    </svg>
+                </a>
+                <a href="https://youtube.com" class="social-link" aria-label="YouTube">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                    <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+                    </svg>
+                </a>
+                <a href="https://facebook.com" class="social-link" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                    </svg>
+                </a>
+                <a href="https://x.com" class="social-link" aria-label="X / Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4l16 16M20 4 4 20"/>
+                    </svg>
+                </a>
+                <a href="https://pinterest.com" class="social-link" aria-label="Pinterest">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.76 1.22-5.17 1.22-5.17s-.31-.62-.31-1.54c0-1.45.84-2.53 1.88-2.53.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.88 1.54 1.88 1.85 0 3.1-2.37 3.1-5.18 0-2.14-1.44-3.64-3.5-3.64-2.38 0-3.78 1.79-3.78 3.63 0 .72.28 1.49.62 1.91a.25.25 0 0 1 .06.24l-.23.95c-.04.15-.12.18-.28.11-1.04-.49-1.69-2.02-1.69-3.25 0-2.64 1.92-5.07 5.53-5.07 2.9 0 5.16 2.07 5.16 4.83 0 2.88-1.81 5.19-4.33 5.19-.85 0-1.64-.44-1.91-.96l-.52 1.95c-.19.72-.69 1.62-1.03 2.17.78.24 1.6.37 2.46.37 5.52 0 10-4.48 10-10S17.52 2 12 2z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-nav">
+            <div class="footer-nav-col">
+                <h4 class="footer-nav-heading">Explore</h4>
+                <ul>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/love-real-food-cookbook/">Cookbook</a></li>
+                    <li><a href="/subscribe/">Subscribe</a></li>
+                    <li><a href="/videos/">Videos</a></li>
+                    <li><a href="/category/food-recipes/">All Recipes</a></li>
+                    <li><a href="/ingredient-index/">Ingredient Index</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-nav-heading">Course</h4>
+                <ul>
+                    <li><a href="/category/food-recipes/appetizers/">Appetizers</a></li>
+                    <li><a href="/category/food-recipes/breakfast/">Breakfast</a></li>
+                    <li><a href="/category/food-recipes/dessert/">Dessert</a></li>
+                    <li><a href="/category/food-recipes/entrees/">Dinner</a></li>
+                    <li><a href="/category/food-recipes/salads/">Salads</a></li>
+                    <li><a href="/category/food-recipes/soups-and-stews/">Soups</a></li>
+                    <li><a href="/category/food-recipes/side-dishes/">Sides</a></li>
+                    <li><a href="/category/food-recipes/drinks/">Drinks</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-nav-heading">Diet</h4>
+                <ul>
+                    <li><a href="/category/food-recipes/gluten-free/">Gluten Free</a></li>
+                    <li><a href="/category/food-recipes/vegan/">Vegan</a></li>
+                    <li><a href="/category/food-recipes/dairy-free/">Dairy Free</a></li>
+                    <li><a href="/category/food-recipes/egg-free-lactovegetarian/">Egg Free</a></li>
+                    <li><a href="/category/food-recipes/nut-free/">Nut Free</a></li>
+                    <li><a href="/category/food-recipes/naturally-sweetened/">Sugar Free</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-nav-heading">Cuisine</h4>
+                <ul>
+                    <li><a href="/category/vegetarian-asian-recipes/">Asian</a></li>
+                    <li><a href="/category/french/">French</a></li>
+                    <li><a href="/category/vegetarian-indian-recipes/">Indian</a></li>
+                    <li><a href="/category/vegetarian-italian-recipes/">Italian</a></li>
+                    <li><a href="/category/greek-vegetarian-recipes/">Mediterranean</a></li>
+                    <li><a href="/category/vegetarian-mexican-recipes/">Mexican</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2025 Cookie and Kate LLC</p>
+            <nav class="footer-legal">
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-use/">Terms of Use</a>
+                <a href="/disclaimer/">Disclaimer</a>
+                <a href="/contact/">Contact</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>

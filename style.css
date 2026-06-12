@@ -3,3 +3,8 @@
 @import url(css/homepage.css);
 @import url(css/footer.css);
 @import url(/css/reponsiveness.css);
+@import url(css/about.css);
+
+script, style {
+    display: none !important;
+}
