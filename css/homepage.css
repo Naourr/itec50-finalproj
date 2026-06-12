@@ -25,7 +25,6 @@
     width: 100%;
     height: 450px;
     padding: 4rem;
-
     display: flex;
     justify-content: right;
     align-items: center;
@@ -84,7 +83,6 @@ div:has(.about-section) {
     padding-top: 2.5rem;
 
 }
-
 .about-container {
     display: flex;
     justify-content: center;
@@ -95,14 +93,12 @@ div:has(.about-section) {
     margin: 0 auto;
     padding: 1.5rem;
 }
-
 .about-container img {
     aspect-ratio: 1/1;
     height: 500px;
     width: auto;
     margin-right: 4rem;
 }
-
 .about-container .textbox {
     background-color: var(--bgcolor);
     padding: 3rem;
@@ -120,7 +116,4 @@ div:has(.about-section) {
     color: var(--textcolor);
     font-size: 3rem;
     font-weight: 600;
-}
-.about-container .button {
-    width: fit-content;
 }

@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-/* examples lang */
 :root {
     --footer-bg: black;
     --bgcolor: white;
@@ -16,11 +15,6 @@
     --accent1faint: #e4f8e9;
     --offwhite: #d2d2d2;
 }
-
-/* Pang test lang */
-/* div {
-    border: 1px solid black;
-} */
 
 body {
     background-color: var(--bgcolor);
@@ -37,11 +31,10 @@ body > * > * {
     max-width: 1200px;
     width: 100%;
     padding: 0 1.5rem 2.5rem 1.5rem;
-
 }
 
-/* FONTS TEMPLATE */
-/* for titles and shi, sometimes naka italic tho */
+/* TEMPLATES */
+/* fonts for titles and shi, sometimes naka italic tho */
 .serif {
     font-family: 'Playfair Display', serif;
     /* font-style: italic; */
@@ -80,6 +73,7 @@ body > * > * {
     font-size: 12px;
     letter-spacing: 2px;
     text-decoration: none;
+    width: fit-content;
 }
 .button:hover {
     background-color: var(--accent1);
