@@ -9,7 +9,7 @@
     --accent1: #2e6b3e;
     --accent1lighter: #3b8a50;
     --accent1faint: #e4f8e9;
-    --offwhite: #d2d2d2;
+    --offwhite: rgb(237, 237, 237);
 }
 
 * {

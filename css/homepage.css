@@ -57,7 +57,7 @@
 }
 
 div:has(.about-section) {
-    background-color: var(--accent1faint);
+    background-color: var(--offwhite);
     max-width: none;
     padding-top: 2.5rem;
 

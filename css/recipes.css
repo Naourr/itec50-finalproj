@@ -42,7 +42,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    background-color: rgb(237, 237, 237);
+    background-color: var(--offwhite)
 }
 .about-container img {
     aspect-ratio: 1/1;
