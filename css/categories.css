@@ -38,3 +38,7 @@
     width: 100%;
     display: inline-block;
 }
+
+.categories .grid p:hover {
+    color: var(--accent1);
+}
