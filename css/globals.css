@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@400;600&family=Playfair+Display:wght@400;500;600&display=swap');
 
 :root {
     --footer-bg: black;
@@ -16,17 +12,20 @@
     --offwhite: #d2d2d2;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: var(--bgcolor);
 }
-
 body > * {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 body > * > * {
     max-width: 1200px;
     width: 100%;
@@ -34,7 +33,7 @@ body > * > * {
 }
 
 /* TEMPLATES */
-/* fonts for titles and shi, sometimes naka italic tho */
+/* fonts for titles */
 .serif {
     font-family: 'Playfair Display', serif;
     /* font-style: italic; */
@@ -61,7 +60,7 @@ body > * > * {
     color: var(--textcolor1lighter);
 }
 
-/* BUTTONS TEMPLATE */
+/* BUTTON TEMPLATE */
 .button {
     background-color: black;
     color: white;
@@ -80,15 +79,6 @@ body > * > * {
     background-color: var(--accent1);
 }
 
-.line-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1.5rem;
-    width: 100%;
-}
 /* HORIZONTAL LINE TEMPLATE */
 .line {
     display: inline;
@@ -99,6 +89,18 @@ body > * > * {
     flex-shrink: 1;
 }
 
+/* HORIZONTAL LINE WITH BUTTON TEMPLATE */
+.line-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* OTHER TEMPLATES */
 .picture-frame {
     background-size: cover;
     background-position: center;

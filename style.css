@@ -1,11 +1,7 @@
-@import url(css/globals.css);
-@import url(css/nav.css);
-@import url(css/homepage.css);
-@import url(css/categories.css);
-@import url(css/footer.css);
-@import url(css/reponsiveness.css);
-@import url(css/about.css);
-@import url(css/contact.css);
+@import url(/css/globals.css);
+@import url(/css/nav.css);
+@import url(/css/footer.css);
+@import url(/css/reponsiveness.css);
 
 script, style {
     display: none !important;
