@@ -33,6 +33,7 @@
 }
 .categories .grid {
     padding: 2rem 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .categories .line {
     width: 100%;
